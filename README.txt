@@ -23,9 +23,7 @@ https://github.com/gw-odw/odw-2018/blob/master/gwpy/2b%20-
 %20Signal%20processing%20with%20GWpy.ipynb 
 Accessed on: 31-05-2022
 
-Among other libraries, the thesis uses in particular the following libraries:
-tsfel, pyCBC, qiskit, qiskit-machine-learning, seaborn, gwpy and gwosc.
-
+See the end of the README file for information on the libraries used.
 
 To run the scripts in windows download the repository and 
 Unpack the 2 zip files (part1.zip and part2.zip) located in
@@ -85,3 +83,63 @@ The few lines of code of the function "circle_points(r,n)"
 used in some of the plots of the DLOG examples used in the appendix of the thesis are copied from the 
 website "https://stackoverflow.com/questions/33510979/generator-of-evenly-spaced-points-in-a-circle-in-python"
 as is indicated in the files that define and use this function in the DLOG folder of the code.
+
+
+Libraries used:
+
+Among other more standard libraries, the thesis uses in particular the following libraries:
+tsfel, pyCBC, qiskit, qiskit-machine-learning, seaborn, gwpy and gwosc.
+
+tsfel: @article{barandas2020tsfel,
+  title={TSFEL: Time Series Feature Extraction Library},
+  author={Barandas, Mar{\'\i}lia and Folgado, Duarte and Fernandes, Let{\'\i}cia and Santos, Sara and Abreu, Mariana and Bota, Patr{\'\i}cia and Liu, Hui and Schultz, Tanja and Gamboa, Hugo},
+  journal={SoftwareX},
+  volume={11},
+  pages={100456},
+  year={2020},
+  publisher={Elsevier}
+}
+
+pyCBC: Nitz, A., Harry, I., Brown, D., Biwer, C. M., Willis, J., Canton, T. D., Capano, C., Dent, T., Pekowsky, L.,
+Williamson, A. R., Davies, G. S. C., De, S., Cabero, M., Machenschalk, B., Kumar, P., Macleod, D.,
+Reyes, S., dfinstad, Pannarale, F., . . . Gadre, B. U. V. (2021). Gwastro/pycbc: Release v1.18.3 of pycbc
+(Version v1.18.3). Zenodo. https://doi.org/10.5281/zenodo.5256134
+
+qiskit: ANIS, M. S., Abby-Mitchell, Abraham, H., AduOffei, Agarwal, R., Agliardi, G., Aharoni, M., Akhalwaya, I. Y.,
+Aleksandrowicz, G., Alexander, T., Amy, M., Anagolum, S., Anthony-Gandon, Arbel, E., Asfaw, A.,
+Athalye, A., Avkhadiev, A., Azaustre, C., BHOLE, P., . . . ˇCepulkovskis, M. (2021). Qiskit: An opensource
+framework for quantum computing. https://doi.org/10.5281/zenodo.2573505
+
+seaborn: @article{Waskom2021,
+    doi = {10.21105/joss.03021},
+    url = {https://doi.org/10.21105/joss.03021},
+    year = {2021},
+    publisher = {The Open Journal},
+    volume = {6},
+    number = {60},
+    pages = {3021},
+    author = {Michael L. Waskom},
+    title = {seaborn: statistical data visualization},
+    journal = {Journal of Open Source Software}
+ }
+
+@article{gwpy,
+    title = "{GWpy: A Python package for gravitational-wave astrophysics}",
+   author = {{Macleod}, D.~M. and {Areeda}, J.~S. and {Coughlin}, S.~B. and {Massinger}, T.~J. and {Urban}, A.~L.},
+  journal = {SoftwareX},
+   volume = 13,
+    pages = 100657,
+     year = 2021,
+     issn = {2352-7110},
+      doi = {10.1016/j.softx.2021.100657},
+      url = {https://www.sciencedirect.com/science/article/pii/S2352711021000029},
+}
+
+gwosc: R. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration), "Open data from the first and second observing runs of Advanced LIGO and Advanced Virgo", SoftwareX 13 (2021) 100658
+
+usage of gravitational wave open science center data:
+"This research has made use of data or software obtained from the Gravitational Wave Open Science Center (gw-openscience.org), a service of LIGO Laboratory, the LIGO Scientific Collaboration, the Virgo Collaboration, and KAGRA. LIGO Laboratory and Advanced LIGO are funded by the United States National Science Foundation (NSF) as well as the Science and Technology Facilities Council (STFC) of the United Kingdom, the Max-Planck-Society (MPS), and the State of Niedersachsen/Germany for support of the construction of Advanced LIGO and construction and operation of the GEO600 detector. Additional support for Advanced LIGO was provided by the Australian Research Council. Virgo is funded, through the European Gravitational Observatory (EGO), by the French Centre National de Recherche Scientifique (CNRS), the Italian Istituto Nazionale di Fisica Nucleare (INFN) and the Dutch Nikhef, with contributions by institutions from Belgium, Germany, Greece, Hungary, Ireland, Japan, Monaco, Poland, Portugal, Spain. The construction and operation of KAGRA are funded by Ministry of Education, Culture, Sports, Science and Technology (MEXT), and Japan Society for the Promotion of Science (JSPS), National Research Foundation (NRF) and Ministry of Science and ICT (MSIT) in Korea, Academia Sinica (AS) and the Ministry of Science and Technology (MoST) in Taiwan." 
+
+
+
+
