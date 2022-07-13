@@ -1,7 +1,7 @@
 README for using the source code of the Master thesis of Daniel Blatman.
 The folder contains the source code used to produce the figures in the scripts
 and the output obtained when the scripts are run. Additionally a file ml_pipeline.png 
-is present in the folder CLassifyGW showing schematically the ML pipeline used.
+is present in the folder ClassifyGW showing schematically the ML pipeline used.
 The thesis was done as part of Master studies in AI at Maastricht University in collaboration with 
 IBM Research - Zurich. 
 Thesis Committee:
@@ -17,8 +17,15 @@ https://github.com/qiskit-community/prototype-quantum-kernel-training
 on the 29th of May 2022. This folder is redistributed with this repository, see the licence 
 within the folder prototype-quantum-kernel-training.
 
+The usage of filters in the preprocessing steps used to process gravitational waves are
+based on the following tutorial on gravitational wave data processing on the GitHub website: 
+https://github.com/gw-odw/odw-2018/blob/master/gwpy/2b%20-
+%20Signal%20processing%20with%20GWpy.ipynb 
+Accessed on: 31-05-2022
+
 Among other libraries, the thesis in particular the following libraries:
 tsfel, pyCBC, qiskit, qiskit-machine-learning, seaborn, gwpy and gwosc.
+
 
 To run the scripts in windows download the repository and 
 Unpack the 2 zip files (part1.zip and part2.zip) located in
