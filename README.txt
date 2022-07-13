@@ -23,7 +23,7 @@ https://github.com/gw-odw/odw-2018/blob/master/gwpy/2b%20-
 %20Signal%20processing%20with%20GWpy.ipynb 
 Accessed on: 31-05-2022
 
-Among other libraries, the thesis in particular the following libraries:
+Among other libraries, the thesis uses in particular the following libraries:
 tsfel, pyCBC, qiskit, qiskit-machine-learning, seaborn, gwpy and gwosc.
 
 
